@@ -1,0 +1,34 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+    meta(name='description', content= 'A nice starting configuration')
+    title= "Gaia - Bootstrap Template"
+    script(src="https://use.fontawesome.com/df8ec2625f.js")
+    block stylesheets
+      link(rel="icon" href="img/favicon.png")
+      link(href='https://fonts.googleapis.com/css?family=Cambo|Lato:400,700' rel='stylesheet' type='text/css')
+      // build:css css/app.css
+      link(rel="stylesheet" href="styles/pe-icon-7-stroke.css")
+      link(rel="stylesheet" href="vendors/bootstrap/css/bootstrap.css")
+      link(rel="stylesheet" href="styles/gaia.css")
+      link(rel="stylesheet" href="assets/css/main.css")
+      // endbuild
+  body
+    block navbar
+
+    block content
+
+    block footer
+
+    block scripts
+      // build:js js/app.js
+      script(src="vendors/jquery/js/jquery.js")
+      script(src="vendors/bootstrap/js/bootstrap.js")
+      script(src="scripts/modernizr.js")
+      script(src="https://maps.googleapis.com/maps/api/js")
+      script(src="scripts/gaia.js")
+      script(src="assets/js/main.js")
+      // endbuild
